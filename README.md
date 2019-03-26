@@ -80,7 +80,7 @@ A Javascript comment begins with //, for example a comment would look like "//th
 
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
 
-For each Javascript function defined, you must assign it to an action in the HTML code. For example "<body onload = "displayInformation();">" saying that when body fo the HTML file is loaded, the Javascript function "displayInformation()" is being called to run. The other two examples in the code are "<li oncopy="copyFunction()">" and "<button onclick=handleClick() id="wow-button">".
+For each Javascript function defined, you must assign it to an action in the HTML code. For example "<body onload = "displayInformation();">" saying that when body fo the HTML file is loaded, the Javascript function "displayInformation()" is being called to run.
 
 * **What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.**
 
@@ -110,7 +110,7 @@ With no javascript, the background of the page would be white.
 
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
 
-The <p> elements have their own style where the border is grey. To change the color, you just have to find that element in the style section and change the hex code for the background-color selector.
+The paragraph elements have their own style where the background is grey. To change the color, you just have to find that element in the style section and change the hex code for the background-color selector.
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
 
@@ -155,7 +155,7 @@ In the <style> section of the code, the class .error has a text color of red and
 
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**
 
-I beleive that this line of code is making sure that the only code entered is letters a-z whether they are capitalized or not. I Googled that exact line of code and what I found was information on regular expressions that backed up this belief.
+I believe that this line of code is making sure that the only code entered starts and ends with letters a-z whether they are capitalized or not. I Googled that exact line of code and what I found was information on regular expressions that backed up this belief.
 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
 
@@ -177,4 +177,4 @@ $(document).ready(function(){
 * **Add some code to the `jquerylib_submit_example.html` file so that, if the input is valid and is specifically the text `hello`, rather than the visible output being `Nice!` in blue, the visible output should be `Hello to you too!`, also in blue, just like `Nice!` is.**
 	* *HINT:* You'll have to make some changes to the conditional statement, and possibly look up some JavaScript conditional syntax. You'll also need to look carefully at what generates visible output right now.
 
-This is done in code. 
+This is done in code.
